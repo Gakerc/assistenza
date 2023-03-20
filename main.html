@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaKer & Fabix - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <section>
+        <img src="img/background.png" id="background">
+        <h1 id="text">
+            <span class = "theme">GAKER</span>&<span class = "theme">FABIX</span>
+        </h1>
+        <img src="img/Strisce.png" id="background">
+    </section>
+    <header class="head">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Portfolio/index.html">Portfolio</a></li>
+            <li><a href="./Support/index.html">Contattaci</a></li>
+        </ul>
+    </header>
+    <script>
+        let text = document.getElementById('text');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            text.style.marginRight = value * 4 + 'px';
+        })
+    </script>
+</body>
+</html>
