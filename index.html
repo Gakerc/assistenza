@@ -6,9 +6,10 @@
     <title>GaKer & Fabix - Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
 <body>
-    <section>
+    <section class="home" id="1">
         <img src="img/background.png" id="background">
         <h1 id="text">
             <span class = "theme">GAKER</span>&<span class = "theme">FABIX</span>
@@ -17,11 +18,59 @@
     </section>
     <header class="head">
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./Portfolio/index.html">Portfolio</a></li>
-            <li><a href="./Support/index.html">Contattaci</a></li>
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Chi siamo</a></li>
+            <li><a href="#3">Servizi</a></li>
+            <li><a href="#4">Contattaci</a></li>
         </ul>
     </header>
+    <section class="about" id="2">
+        <h1>CHI SIAMO</h1>
+        <div class="cont">
+            <div class="box">
+                <p>Siamo studenti che stanno imparando il mondo del lavoro e dell'informatica. siamo molto appassionati e insieme al nostro prof facciamo delle riparazioni di alcuni computer di scuola.</p>
+            </div>
+        </div>
+    </section>
+    <section class="service" id="3">
+        <h1>COSA OFFRIAMO</h1>
+        <div class="cont">
+            <div class="box">
+                <h3>Assistenza Hardware</h3>
+                <p>Ripariamo o sostituiamo i componenti guasti del tuo pc</p>
+            </div>
+            <div class="box">
+                <h3>Assistenza Software</h3>
+                <p>Risolviamo tutti i problemi a livello di software sui tuoi dispositivi</p>
+            </div>
+            <div class="box">
+                <h3>Salvataggio dati </h3>
+                <p>Ci occupiamo di salvare tutti i tuoi dati permettendo più sicurezza nel tuo dispositivo</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="4">
+        <h1>CONTATTACI</h1>
+        <div class="cont">
+            <div class="box">
+                <h3>TELEFONO</h3>
+                <p>+39 327 477 7057</p>
+            </div>
+            <div class="box">
+                <h3>EMAIL</h3>
+                <p>ma.maragno@ecfop.net</p>
+                <p>fa.zigoli@ecfop.net</p>
+            </div>
+            <div class="box">
+                <h3 >POSIZIONE</h3>
+                <p >Via Don Carlo Colnaghi, 1, 20851 Lissone MB</p>
+            </div>
+        </div>
+    </section>
+
+    <a class="up" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
     <script>
         let text = document.getElementById('text');
 

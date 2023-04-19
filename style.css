@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -11,7 +12,7 @@ body{
     color: white;
 }
 
-section {
+.home {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -21,12 +22,91 @@ section {
     align-items: center;
 }
 
-section img {
+.home img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.about {
+    min-height: 100vh;
+    width: 100%;
+    padding: 10rem;
+}
+
+.about h1 {
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3vw;
+}
+
+.service {
+    min-height: 100vh;
+    width: 100%;
+    padding: 10rem;
+    
+}
+
+.service h1 {
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3vw;
+}
+
+.service .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.service .cont .box {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgba(88, 22, 22, 0.349);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.contact{
+    background-color: rgb(24, 24, 24);
+}
+
+.contact .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact .cont .box {
+    flex: 1 1 5rem;
+    padding: 0rem 5rem 5rem;
+    border-radius: 2rem;
+    text-align: center;
+
+}
+
+.contact h1 {
+    padding: 5rem 0rem 0rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 2.rem;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 header {
@@ -82,4 +162,19 @@ header ul li a:hover {
     position: absolute;
     font-size: 7.9vw;
     /*right: 0px;*/
+}
+
+.up {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #ae2727;
+    bottom: 20px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    
 }
